@@ -17,19 +17,19 @@ def open_gui():
 
 window = Tk()
 window.title("Rock,Paper,Scissors")
-gomb1 = Button(window)
+gomb1 = Button(window, text='Kő')
 gomb1.config(command=click)
 kep = PhotoImage(file="rock.png")
 gomb1.config(image=kep)
 gomb1.grid(row=0, column=0, padx=10, pady=10)
 
-gomb2 = Button(window)
+gomb2 = Button(window, text='Papír')
 gomb2.config(command=click2)
 kep1 = PhotoImage(file="paper.png")
 gomb2.config(image=kep1)
 gomb2.grid(row=0, column=1, padx=10, pady=10)
 
-gomb3 = Button(window)
+gomb3 = Button(window, text='Olló')
 gomb3.config(command=click3)
 kep2 = PhotoImage(file="scissors.png")
 gomb3.config(image=kep2)
