@@ -27,14 +27,12 @@ gomb2 = Button(window)
 gomb2.config(command=click2)
 kep1 = PhotoImage(file="paper.png")
 gomb2.config(image=kep1)
-
 gomb2.grid(row=0, column=1, padx=10, pady=10)
 
 gomb3 = Button(window)
 gomb3.config(command=click3)
 kep2 = PhotoImage(file="scissors.png")
 gomb3.config(image=kep2)
-
 gomb3.grid(row=0, column=2, padx=10, pady=10)
 
 gomb_e = Button(window, text='Exit')
